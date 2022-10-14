@@ -46,6 +46,16 @@
       "method": "...",
       "cookingTime": "50 minutes",
       "id": "BiVJDqU"
+    },
+    {
+      "title": "Juice",
+      "ingredients": [
+        "Water",
+        "Lemon"
+      ],
+      "method": "Boil",
+      "cookingTime": "20 minutes",
+      "id": "uIGejK1"
     }
   ]
 }
