@@ -36,6 +36,26 @@
       ],
       "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
       "cookingTime": "35 minutes"
+    },
+    {
+      "title": "Pie",
+      "ingredients": [
+        "mushroom",
+        "apple"
+      ],
+      "method": "...",
+      "cookingTime": "50 minutes",
+      "id": "BiVJDqU"
+    },
+    {
+      "title": "Juice",
+      "ingredients": [
+        "Water",
+        "Lemon"
+      ],
+      "method": "Boil",
+      "cookingTime": "20 minutes",
+      "id": "uIGejK1"
     }
   ]
 }

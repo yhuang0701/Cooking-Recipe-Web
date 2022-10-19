@@ -1,0 +1,23 @@
+.searchbar form {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar input {
+  margin-left: 10px;
+}
+
+.searchbar button {
+  display: block;
+  width: 120px;
+  font-size: 1em;
+  color: #fff;
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #ba8c2f;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin: 20px auto;
+}
