@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useHistory } from 'react-router-dom'
+import { useTheme } from '../hooks/useTheme'
 
 // styles
 import './Searchbar.css'
@@ -8,6 +9,7 @@ export default function Searchbar() {
 
   const [term, setTerm] = useState("")
   const history = useHistory()
+  const { color } = useTheme()
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -26,7 +28,7 @@ export default function Searchbar() {
           value={term}
           required
         />
-        <button className="btn">Submit</button>
+        <button className="btn" style={{ backgroundColor: color }}>Submit</button>
       </form>
     </div>
   )
